@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sushi Makers</title>
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+
+  <body>
+    <div class="page">
+      <div class="banner banner_grey"> <!-- HEADER + BANNER -->
+        <div class="container container_small">
+
+          <nav class="navigation">
+            <ul class="navbar">
+              <li class="navbar_item"><a class="navbar_link" href="index.html">Home</a></li>
+              <li class="navbar_item"><a class="navbar_link" href="nigiri.html">Nigiri</a></li>
+              <li class="navbar_item"><a class="navbar_link" href="maki.html">Maki</a></li>
+              <li class="navbar_item"><a class="navbar_link" href="uramaki.html">Uramaki</a></li>
+              <li class="navbar_item"><a class="navbar_link" href="temaki.html">Temaki</a></li>
+              <li class="navbar_item"><a class="navbar_link" href="sashimi.html">Sashimi</a></li>
+              <li class="navbar_item"><a class="navbar_link selected" href="gallery.html">Gallerie</a></li>
+            </ul>
+          </nav>
+
+          <div class="title_area_gallery">
+            <h1 class="titre1">Gallerie</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="gallery_photo_area"> <!-- GALLERIE -->
+        <div class="filtre_area">
+          <ul class="filtre">
+
+            <li class="filtre_item  filtre_item--selected"><a class="filtre_link" data-js-value="All">Voir tout</a></li>
+            <li class="filtre_item"><a class="filtre_link" data-js-value="Nigiri">Nigiri</a></li>
+            <li class="filtre_item"><a class="filtre_link" data-js-value="Maki">Maki</a></li>
+            <li class="filtre_item"><a class="filtre_link" data-js-value="Uramaki">Uramaki</a></li>
+            <li class="filtre_item"><a class="filtre_link" data-js-value="Temaki">Temaki</a></li>
+            <li class="filtre_item"><a class="filtre_link" data-js-value="Sashimi">Sashimi</a></li>
+
+          </ul>
+        </div>
+
+        <!--BACKUP
+        <a href="img/placeholder.png" data-lightbox="image-1" data-title="My caption"><img class="small" src="img/placeholder.png" alt="Image 1"></a>
+        -->
+        <ul class="galleryphotos  js-gallery">
+
+          <li class="galleryphotos_item" data-js-value="Nigiri">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/nigiri_1.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/nigiri_1.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item  galleryphotos_item-large" data-js-value="Sashimi">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/sashimi_1.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/sashimi_1.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item" data-js-value="Maki">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/maki_1.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/maki_1.jpg" alt="Image 1">
+              </a>
+            </div>
+          </li>
+
+          <li class="galleryphotos_item  galleryphotos_item-small" data-js-value="Nigiri">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/nigiri_2.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/nigiri_2.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item  galleryphotos_item-small" data-js-value="Uramaki">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/uramaki_1.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/uramaki_1.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item" data-js-value="Maki">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/maki_2.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/maki_2.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item  galleryphotos_item-large" data-js-value="Nigiri">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/nigiri_3.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/nigiri_3.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item" data-js-value="Nigiri">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/nigiri_4.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/nigiri_4.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item  galleryphotos_item-large" data-js-value="Temaki">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/temaki_1.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/temaki_1.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item  galleryphotos_item-small" data-js-value="Uramaki">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/uramaki_2.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/uramaki_2.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item galleryphotos_item-large" data-js-value="Maki">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/maki_3.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/maki_3.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item  galleryphotos_item-small " data-js-value="Uramaki">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/uramaki_3.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/uramaki_3.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item" data-js-value="Sashimi">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/sashimi_2.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/sashimi_2.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item  galleryphotos_item-large" data-js-value="Uramaki">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/uramaki_4.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/uramaki_4.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item" data-js-value="Nigiri">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/nigiri_5.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/nigiri_5.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item galleryphotos_item-small" data-js-value="Maki">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/maki_4.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/maki_4.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item  galleryphotos_item-large" data-js-value="Temaki">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/temaki_2.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/temaki_2.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item  galleryphotos_item-small" data-js-value="Sashimi">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/sashimi_3.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/sashimi_3.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item" data-js-value="Maki">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/maki_5.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/maki_5.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item" data-js-value="Nigiri">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/nigiri_6.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/nigiri_6.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item  galleryphotos_item-small" data-js-value="Uramaki">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/uramaki_5.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/uramaki_5.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item" data-js-value="Maki">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/maki_6.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/maki_6.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item" data-js-value="Nigiri">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/nigiri_7.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/nigiri_7.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item  galleryphotos_item-large" data-js-value="Temaki">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/temaki_3.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/temaki_3.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item" data-js-value="Uramaki">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/uramaki_6.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/uramaki_6.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item" data-js-value="Nigiri">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/nigiri_8.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/nigiri_8.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item  galleryphotos_item-small" data-js-value="Maki">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/maki_7.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/maki_7.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item galleryphotos_item-large" data-js-value="Nigiri">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/nigiri_9.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/nigiri_9.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item galleryphotos_item-large" data-js-value="Maki">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/maki_8.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/maki_8.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item" data-js-value="Sashimi">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/sashimi_4.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/sashimi_4.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item" data-js-value="Temaki">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/temaki_4.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/temaki_4.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item galleryphotos_item-small" data-js-value="Nigiri">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/nigiri_10.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/nigiri_10.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item" data-js-value="Uramaki">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/uramaki_7.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/uramaki_7.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item" data-js-value="Sashimi">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/sashimi_5.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/sashimi_5.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item  galleryphotos_item-large" data-js-value="Nigiri">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/nigiri_11.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/nigiri_11.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item  galleryphotos_item-small" data-js-value="Temaki">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/temaki_5.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/temaki_5.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item  galleryphotos_item-large" data-js-value="Maki">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/maki_9.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/maki_9.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item" data-js-value="Uramaki">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/uramaki_8.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/uramaki_8.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item galleryphotos_item-small" data-js-value="Nigiri">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/nigiri_12.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/nigiri_12.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item" data-js-value="Nigiri">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/nigiri_13.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/nigiri_13.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item" data-js-value="Uramaki">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/uramaki_9.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/uramaki_9.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item" data-js-value="Sashimi">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/sashimi_6.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/sashimi_6.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item galleryphotos_item-small" data-js-value="Nigiri">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/nigiri_14.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/nigiri_14.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+          <li class="galleryphotos_item  galleryphotos_item-large" data-js-value="Maki">
+
+            <div class="picture">
+              <a class="picture_link" href="gal/maki_10.jpg" data-lightbox="image-1" >
+                <img class="picture_image " src="gal/maki_10.jpg" alt="Image 1">
+              </a>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <!--
+        <p class="gallery_photo_item gallery_photo_nigiri" data-lightbox>TXT PLACEHOLDER NIGIRI</p>
+        <p class="gallery_photo_item gallery_photo_maki data-lightbox">TXT PLACEHOLDER MAKI</p>
+        <p class="gallery_photo_item gallery_photo_uramaki data-lightbox">TXT PLACEHOLDER URAMAKI</p>
+        <p class="gallery_photo_item gallery_photo_temaki data-lightbox">TXT PLACEHOLDER TEMAKI</p>
+        <p class="gallery_photo_item gallery_photo_sashimi data-lightbox">TXT PLACEHOLDER SASHIMI</p>   -->
+      </div>
+
+      <div class="footer"> <!-- FOOTER -->
+        <div class="footer_content">
+          <p class="footer_item footer_phone">+ 32 455 55 55</p>
+          <p class="footer_item footer_copyright">Sushi Makers 2018</p>
+          <p class="footer_item footer_mail">contact@sushimakers.com</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="javascript/display.js"></script>
+    <script src="javascript/lightbox.js"></script>
+  </body>
+</html>
