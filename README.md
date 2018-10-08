@@ -1,1 +1,1 @@
-# Copyright LEURQUIN ELise for IAD - 2017-2018
+# Copyright LEURQUIN Elise for IAD - 2017-2018
